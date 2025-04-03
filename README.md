@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AccessCare
 
-## Getting Started
+A modern healthcare platform that connects patients with doctors for remote consultations, appointment management, and medical services.
 
-First, run the development server:
+## 📑 Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+## ✨ Features
+
+- **Patient Portal**
+  - Schedule and manage appointments
+  - Access medical records
+  - Teleconsultation with doctors
+  - AI-powered health assistant
+  - Disease prediction tools
+  - Health education resources
+
+- **Doctor Portal**
+  - Manage patient appointments
+  - View patient medical histories
+  - Issue prescriptions
+  - Conduct virtual consultations
+  - Manage patient database
+
+- **Core Functionality**
+  - User authentication & authorization
+  - Secure medical data management
+  - Real-time video consultations
+  - Responsive UI for all devices
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js, TypeScript, TailwindCSS
+- **Authentication**: JWT-based auth system
+- **UI Components**: Custom components with TailwindCSS
+- **Deployment**: Vercel
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Swayam-code/GDG-AccessCare.git
+   cd GDG-AccessCare
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📁 Project Structure
+
+```
+/
+├── public/            # Static assets
+├── src/
+│   ├── app/           # Next.js App Router files
+│   │   ├── dashboard/ # Dashboard pages for patients and doctors
+│   │   ├── login/     # Authentication pages
+│   │   └── ...        # Other app routes
+│   ├── components/    # Reusable UI components
+│   └── middleware.ts  # Next.js middleware
+├── .gitignore         # Git ignore file
+├── next.config.ts     # Next.js configuration
+├── package.json       # Project dependencies
+├── tailwind.config.ts # Tailwind CSS configuration
+└── tsconfig.json      # TypeScript configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🖼️ Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application includes various features such as:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Landing page with service information
+- Patient and doctor dashboards
+- Teleconsultation interface
+- Health monitoring tools
+- Appointment management system
 
-## Learn More
+## 👥 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
